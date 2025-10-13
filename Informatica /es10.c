@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef char* array;
+typedef int* array;
 
 int main(){    
     array vett = NULL;
