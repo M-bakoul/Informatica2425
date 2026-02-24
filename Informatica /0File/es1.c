@@ -10,6 +10,7 @@ typedef FILE* file;
 
 void InserisciLettera(string t){
     file f;
+
     f = fopen("lettera1.txt", "w");
     fprintf(f, "%s", t);
     fclose(f);
