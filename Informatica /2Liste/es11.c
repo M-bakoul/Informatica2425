@@ -109,7 +109,7 @@ int main(){
                 printf("Scelta non valida. Riprova.\n");
         }
     } while (scelta != 0);
-
+    
 
     return 0;
 }

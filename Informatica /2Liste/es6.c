@@ -18,6 +18,8 @@ Lista* creaLista(){
     return lista;
 }
 
+
+
 void creaNodoTesta(Lista* lista){
     Nodo* nodo = (Nodo*)malloc(sizeof(Nodo));
     printf("Inserisci valore al nodo: ");

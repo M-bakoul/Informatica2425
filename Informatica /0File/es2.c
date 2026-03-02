@@ -10,17 +10,20 @@ typedef FILE* file;
 
 void InserisciLettera(){
     file f;
-    f = fopen("lettera.c", "w");
-    fprintf(f, "#include <stdio.h>");
-    fprintf(f, "\n\n");
-    fprintf(f, "int main(){ ");
-    fprintf(f, "\n\n");
-    fprintf(f, "    int n = 10; ");
+    f = fopen("file.py", "w");
+    if(f == NULL){
+        ("Errore apertura file");
+        exit(1);
+    }
+
+    fprintf(f, "a = 10\n");
+    fprintf(f, "b = 20\n");
+    fprintf(f, "c = a+b\n");
+    fprintf(f, "print(c)\n");
+
+
     fprintf(f, "\n");
-    fprintf(f, "}");
     fclose(f);
-
-
 }
 
 

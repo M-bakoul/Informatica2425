@@ -19,7 +19,6 @@ Coda* creaCodaArray(int capacita) {
     return coda;
 }
 
-
 void enqueueArray(Coda* coda, int valore) {
     if (coda->lunghezza >= coda->capacita) {
         printf("Errore: coda piena\n");
